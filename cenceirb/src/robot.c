@@ -102,8 +102,8 @@ static int robot_move_aux(struct robot* robot, struct map* map, int x, int y) {
 }
 
 int robot_move(struct robot* robot, struct map* map) {
-	int x = robot->x;
-	int y = robot->y;
+	int x = robot_get_x(robot);
+	int y = robot_get_y(robot);
 	int move = 0;
 
 	switch (robot->direction) {
