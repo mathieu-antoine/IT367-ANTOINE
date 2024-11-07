@@ -1,3 +1,3 @@
-const bank = require("./bank.js");
+const bank = require('./bank');
 
 bank.getBalance(123);

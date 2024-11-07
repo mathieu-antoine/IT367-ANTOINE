@@ -1,9 +1,8 @@
-function retrieveBalance(accountID){
-    console.log('retrieve Balance $(accountID)');
-}
-
 const bankDAO = {
-    retrieveBalance
-}
+    retrieveBalance: function (accountId) {
+        console.log(`Retrieve balance for account: ${accountId}`);
+        return 100;
+    }
+};
 
 module.exports = bankDAO;

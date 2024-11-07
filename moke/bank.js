@@ -1,7 +1,9 @@
-const bankDAO = require("./bankDAO.js")
+const bankDAO = require('./bankDAO');
 
-function getBalance(accountID){
-    bankDAO.retrieveBalance(accountID);
-}
-const bank = {getBalance}
+const bank = {
+    getBalance: function (accountId) {
+        return bankDAO.retrieveBalance(accountId);
+    }
+};
+
 module.exports = bank;
