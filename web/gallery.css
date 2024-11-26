@@ -1,0 +1,8 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    & img {
+        border: 4px solid black;
+    }
+}

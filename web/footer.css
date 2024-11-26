@@ -1,0 +1,6 @@
+footer {
+    color: var(--main-color);
+    border: var(--border);
+    font-size: .75rem;
+    text-align: end;
+}
